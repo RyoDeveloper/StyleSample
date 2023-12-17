@@ -18,6 +18,7 @@ struct TitleAndImageLabelStyle: LabelStyle {
                     configuration.icon
                         .scaledToFit()
                 )
+            
             configuration.title
         }
     }

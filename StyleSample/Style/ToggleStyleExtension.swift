@@ -17,6 +17,7 @@ struct CustomToggleStyle: ToggleStyle {
             Image(
                 systemName: configuration.isOn
                     ? "tortoise" : "hare")
+
             configuration.label
         }
         .buttonStyle(.plain)
